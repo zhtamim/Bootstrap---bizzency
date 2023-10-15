@@ -1,0 +1,78 @@
+/* reset css start */
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+    padding: 0px;
+    margin: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* reset css end */
+
+/* header part start */
+    /* top-bar section starting */
+.top-bar{
+    background-color:#0f2f44 ;
+    width: 100vw;
+    color: white;
+}
+.top-bar p{
+    padding: 12.4px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.top-bar p:first-child{
+    margin-right: 10px;
+}
+    /* top-bar section ending */
+    
+    /* navbar section starting */
+.bgclor{
+    background-color: #ffff;
+}
+nav .container ul li{
+    font-size:16px ;
+    font-weight: 500;
+    margin: 0px 9px;
+}
+nav .container ul li a{
+    display: inline-block;
+    color: #222222;
+    padding: 37.5px 10px;
+    transition: .6s;
+}
+nav .container ul li button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(232, 231, 231);
+    border-radius: 50%;
+    transition: .6s;
+}
+nav .container ul li button:hover{
+    color:#ffc712 ;
+    background-color: #fff9e6;
+    cursor: pointer;
+}
+nav .container ul li button:last-child{
+    margin-left: 15px;
+}
+nav .container ul li a:hover{
+    color:#ffc712 ;
+    background-color: #fff9e6;
+}    
+    /* navbar section ending */
+/* header section ending */
